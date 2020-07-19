@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.na{
+    background: url('../img/Mom.png') no-repeat center center;
+    background-size: cover;
+    width: auto;
+    height: 700px;
+}
+
+.navbar{
+    overflow: hidden;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.cont{
+    display: flex;
+    width: 80%;
+    margin: 10px 10px; 
+    padding: 10px;
+    
+}
+
+.navbar li{
+    
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    margin-left: 30px;
+    /* display: inline-block; */
+}
+.navbar li a{
+    color: blanchedalmond;
+    text-decoration: none;
+    
+    padding: 8px;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    color: yellow;
+    /* text-decoration: underline; */
+    border: wheat 2px solid;
+    border-radius: 7px;
+    
+
+    box-sizing: content-box;
+
+}
+body{
+    height: auto;
+}
+#im{
+    height: 55px;
+    width: 55px;
+    background-color: black;
+    border-radius: 25px;
+    background-blend-mode: darken;
+    margin: 10px 10px; 
+
+    
+}
+.he{
+    /* margin: 10px 200px ; */
+    /* margin-top: 1000px;
+    margin-left: 50px;
+    display: flex; */
+    
+    width: 40%;
+}
+.imm1{
+    /* margin-top: 1000px; */
+    width: 245px;
+    height: 240px;
+    border-radius: 25px;
+}
+.head{
+    /* padding: 100px; */
+    /* margin-top: 1000px; */
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+}
+.he{
+    width:70% ;
+}
+.he p{
+    /* text-align: center; */
+    /* vertical-align:center; */
+    padding-top: 90px;
+}
+.men{
+    background-color: turquoise;
+    /* border-radius: 25px; */
+    /* width: 70%; */
+    /* margin: auto; */
+}
+.men div {
+    display: flex;
+    max-width: 60%;
+    margin: auto;
+    
+
+}
+.men1 div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    margin: 10px;
+    display: grid;
+}
+.men1 div img{
+    margin: 6.85px 13.725px;
+    border-radius: 10px;
+    height: 131px;
+    width: 132px;
+}
+.men1 div p{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    vertical-align: center;
+    margin: auto;
+    font-size: 17px;
+    height: 41px;
+}
+
+.loc{
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+#foot{
+    color: burlywood;
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+}
